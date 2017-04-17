@@ -9,22 +9,18 @@
 import Foundation
 
 
-protocol ___FILEBASENAME___View: BaseView {
+protocol ___FILEBASENAME___ViewProtocol{
     // TODO: Declare view methods
 }
 
-protocol ___FILEBASENAME___Presentation: class {
-    // TODO: Declare presentation methods
+protocol ___FILEBASENAME___PresenterProtocol{
+    // TODO: Declare presenter methods
 }
 
-protocol ___FILEBASENAME___UseCase: class {
-    // TODO: Declare use case methods
+protocol ___FILEBASENAME___InteractorProtocol{
+    // TODO: Declare interactor methods
 }
 
-protocol ___FILEBASENAME___InteractorOutput: class {
-    // TODO: Declare interactor output methods
-}
-
-protocol ___FILEBASENAME___Wireframe: class {
+protocol ___FILEBASENAME___WireframeProtocol{
     // TODO: Declare wireframe methods
 }

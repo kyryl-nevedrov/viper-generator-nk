@@ -28,6 +28,7 @@ class ___FILEBASENAME___ViewController: BaseViewController {
 }
 
 
-extension ___FILEBASENAME___ViewController: ___FILEBASENAME___View {
-    // TODO: implement view output methods
+extension ___FILEBASENAME___ViewController: ___FILEBASENAME___ViewProtocol{
+    // TODO: Declare view methods
 }
+

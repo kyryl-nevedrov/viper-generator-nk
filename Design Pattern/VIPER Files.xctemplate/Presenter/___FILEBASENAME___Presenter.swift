@@ -19,11 +19,6 @@ class ___FILEBASENAME___Presenter {
 }
 
 
-extension ___FILEBASENAME___Presenter: ___FILEBASENAME___Presentation {
-    // TODO: implement presentation methods
-}
-
-
-extension ___FILEBASENAME___Presenter: ___FILEBASENAME___InteractorOutput {
-    // TODO: implement interactor output methods
+extension ___FILEBASENAME___Presenter: ___FILEBASENAME___PresenterProtocol{
+    // TODO: Declare presenter methods
 }

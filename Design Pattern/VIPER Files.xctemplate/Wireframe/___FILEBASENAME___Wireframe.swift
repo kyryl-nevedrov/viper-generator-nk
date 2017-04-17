@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 
-class ___FILEBASENAME___Router {
+class ___FILEBASENAME___Wireframe {
 
     // MARK: Properties
 
@@ -39,6 +39,6 @@ class ___FILEBASENAME___Router {
 }
 
 
-extension ___FILEBASENAME___Router: ___FILEBASENAME___Wireframe {
-    // TODO: Implement wireframe methods
+extension ___FILEBASENAME___Router: ___FILEBASENAME___WireframeProtocol{
+    // TODO: Declare wireframe methods
 }
