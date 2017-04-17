@@ -11,6 +11,7 @@ import UIKit
 
 
 class ___FILEBASENAME___ViewController{
+    
     // MARK: Properties
 
     var presenter: ___FILEBASENAME___PresenterProtocol!

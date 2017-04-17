@@ -13,7 +13,7 @@ class ___FILEBASENAME___Interactor {
 
     // MARK: Properties
 
-    weak var presenter: ___FILEBASENAME___PresenterProtocol?
+    var presenter: ___FILEBASENAME___PresenterProtocol!
 }
 
 
