@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 
-class ___FILEBASENAME___ViewController: BaseViewController {
+class ___FILEBASENAME___ViewController{
 
     // MARK: Static
 
@@ -18,7 +18,7 @@ class ___FILEBASENAME___ViewController: BaseViewController {
 
     // MARK: Properties
 
-    var presenter: ___FILEBASENAME___Presentation?
+    var presenter: ___FILEBASENAME___PresenterProtocol!
 
     // MARK: Lifecycle
 
