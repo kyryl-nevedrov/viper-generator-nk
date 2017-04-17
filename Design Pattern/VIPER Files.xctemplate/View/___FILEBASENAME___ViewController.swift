@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 
-class ___FILEBASENAME___ViewController{
+class ___FILEBASENAME___ViewController: UIViewController{
     
     // MARK: Properties
 

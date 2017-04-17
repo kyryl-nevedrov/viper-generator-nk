@@ -19,7 +19,7 @@ class ___FILEBASENAME___Wireframe {
     // MARK: Static methods
 
     static func setupModule() -> ___FILEBASENAME___ViewController {
-        let identifier = ___FILEBASENAME___
+        let identifier = String(___FILEBASENAME___)
         
         let view =  UIStoryboard(name: identifier, bundle: Bundle.main).instantiateViewController(withIdentifier: identifier) as! ___FILEBASENAME___ViewController
         let presenter = ___FILEBASENAME___Presenter()
@@ -41,6 +41,6 @@ class ___FILEBASENAME___Wireframe {
 }
 
 
-extension ___FILEBASENAME___Router: ___FILEBASENAME___WireframeProtocol{
+extension ___FILEBASENAME___Wireframe: ___FILEBASENAME___WireframeProtocol{
     // TODO: Declare wireframe methods
 }
