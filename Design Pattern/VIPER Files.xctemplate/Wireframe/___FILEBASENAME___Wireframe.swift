@@ -19,22 +19,24 @@ class ___FILEBASENAME___Wireframe {
     // MARK: Static methods
 
     static func setupModule() -> ___FILEBASENAME___ViewController {
-        let view = UIStoryboard(name: ___FILEBASENAME___ViewController.storyboardName).instantiateViewController() as! ___FILEBASENAME___ViewController
+        let identifier = ___FILEBASENAME___
+        
+        let view =  UIStoryboard(name: identifier, bundle: Bundle.main).instantiateViewController(withIdentifier: identifier) as! ___FILEBASENAME___ViewController
         let presenter = ___FILEBASENAME___Presenter()
         let wireframe = ___FILEBASENAME___Wireframe()
         let interactor = ___FILEBASENAME___Interactor()
-
+        
         view.presenter =  presenter
-
-        presenter.view = viewController
+        
+        presenter.view = view
         presenter.wireframe = wireframe
         presenter.interactor = interactor
-
+        
         wireframe.view = view
-
+        
         interactor.presenter = presenter
-
-        return viewController
+        
+        return view
     }
 }
 
