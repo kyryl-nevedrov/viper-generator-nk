@@ -11,11 +11,6 @@ import UIKit
 
 
 class ___FILEBASENAME___ViewController{
-
-    // MARK: Static
-
-    static let storyboardName = "___FILEBASENAME___"
-
     // MARK: Properties
 
     var presenter: ___FILEBASENAME___PresenterProtocol!
