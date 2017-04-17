@@ -19,7 +19,7 @@ class ___FILEBASENAME___Wireframe {
     // MARK: Static methods
 
     static func setupModule() -> ___FILEBASENAME___ViewController {
-        let identifier = String(___FILEBASENAME___)
+        let identifier = "___FILEBASENAME___"
         
         let view =  UIStoryboard(name: identifier, bundle: Bundle.main).instantiateViewController(withIdentifier: identifier) as! ___FILEBASENAME___ViewController
         let presenter = ___FILEBASENAME___Presenter()
