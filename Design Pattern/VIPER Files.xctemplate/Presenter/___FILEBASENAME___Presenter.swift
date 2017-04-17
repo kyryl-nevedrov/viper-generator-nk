@@ -13,7 +13,7 @@ class ___FILEBASENAME___Presenter {
 
     // MARK: Properties
 
-    weak var view: ___FILEBASENAME___ViewProtocol?
+    var view: ___FILEBASENAME___ViewProtocol!
     var wireframe: ___FILEBASENAME___WireframeProtocol!
     var interactor: ___FILEBASENAME___InteractorProtocol!
 }
