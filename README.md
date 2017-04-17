@@ -10,11 +10,9 @@ Template to generate VIPER classes on Xcode.
 - Create a new file (`File > New > File` or `⌘N`)
 - Choose `Design Pattern` and `VIPER`
 
-PS: Don't forget to add the ReusableView protocol extension and both the UIViewController and UIStoryboard extensions to your project.
-
 ## Created Files
 - `Protocols` -> Contains all the protocols used in VIPER
 - `Interactor`
 - `Presenter`
-- `ViewController` (AKA View)
-- `Router`
+- `View` 
+- `Wireframe`
